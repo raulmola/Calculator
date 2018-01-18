@@ -13,7 +13,7 @@ When you start the web service, a console will appear with an informative messag
 #### CalculatorClient
 When you start the client it will ask for a desired calculator operation to be requested to the server. Supported operations are  add/sub/mul/div/sqrt/query/exit.Mathematical operations explain themselves.**query** operation is explained below. Write "exit" to stop and exit the client. Follow the console client instrucctions.   
 
-All operations ask for an optional track id (whatever value,for example your name). The server will save (cache in memory) **only** those requested operations with that id. Later on, by means of the **query** command, the customer can request to the web service the history of the requests of the chosen id.
+All operations ask for an optional track id (any value,for example your name). The server will save (cache in memory) **only** those requested operations with that id. Later on, by means of the **query** command, the client can request to the web service the history of the requests of the chosen id.
 
 
 
